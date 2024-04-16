@@ -1,11 +1,12 @@
 # MTS_WAVENET
-## DESCRIPTION
+## 🎨 DESCRIPTION
 ✨An architecturally simple AI model for fast and simultaneous prediction of spatial coastal wave height, wave period and wave direction. 
 > Accurately and quickly simultaneous predicting the spatial evolutions of coastal wave height, wave period and wave direction contributes to a more complete understanding of the sea state, which is conducive to coastal engineering, such as controlling and regulating port operations, preventing damage to coastal structures. Meanwhile, analysis of spatial distribution characteristics of waves will help to find the convergence of wave energy, which can provide some guidance on port, breakwater and wave energy converters (WEC) siting.
 > 
 ## 📚 Framework
 ![image](https://github.com/SimyokH/MTS_WAVENET/assets/120697840/c916ea9d-3566-4e62-a05b-743fb9df1042)
 > ![image](https://github.com/SimyokH/MTS_WAVENET/assets/120697840/02747565-5ce4-433e-9a9c-99b5d6112a27)
+
 > ![image](https://github.com/SimyokH/MTS_WAVENET/assets/120697840/ce5ef528-4f58-40d8-94f6-7ddacff050cc)
 
 🍻Simple multitasking LOSS optimization. (Recommended: GradNorm)
@@ -15,5 +16,6 @@
 > ![image](https://github.com/SimyokH/MTS_WAVENET/assets/120697840/006da3a9-f985-48f1-b314-c5c5592d01ff)
 
 ## 📄 Results
-> ![image](https://github.com/SimyokH/MTS_WAVENET/assets/120697840/2b41d9d0-44e5-4437-9251-8cf2ee294d99)
+![image](https://github.com/SimyokH/MTS_WAVENET/assets/120697840/7ae0ea09-fb07-4e6c-a52e-5b63f3ec0ee8)
+
 
