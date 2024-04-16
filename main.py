@@ -24,13 +24,13 @@ class MultiWaveTaskNet(nn.Module):
         self.drop = nn.Dropout(p=self.drop_out_rate)
 
         #using the same embedding dimension
-        self.node_emb = nn.Embedding(num_embeddings=1, embedding_dim=self.node_dim)
         self.hs_emb = nn.Embedding(num_embeddings=self.num_nodes, embedding_dim=self.x_dim)
         self.T_emb = nn.Embedding(num_embeddings=self.num_nodes, embedding_dim=self.x_dim)
         self.Dir_emb = nn.Embedding(num_embeddings=self.num_nodes, embedding_dim=self.x_dim)
 
-        # final-regression
+        # vanilla-regression
         self.regression_layer = nn.Linear(64,3, bias=True)
+        # final-regression
         self.regression_layer1 = nn.Linear(33,1, bias=True)
         self.regression_layer2 = nn.Linear(33,1, bias=True)
         self.regression_layer3 = nn.Linear(33,1, bias=True)
