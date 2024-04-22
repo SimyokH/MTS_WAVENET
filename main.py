@@ -2,7 +2,7 @@
 """
 Created on Tue Apr 16 10:15:10 2024
 
-@author: Administrator
+@author: SimyokH
 """
 
 class MultiWaveTaskNet(nn.Module):
@@ -87,7 +87,7 @@ class MultiWaveTaskNet(nn.Module):
         T_with_emb = torch.cat([preT_t,T_emb],dim=2)
         Dir_with_emb = torch.cat([preDir_t,Dir_emb],dim=2)
         
-        #res-connet &final regression
+        #res-connet & final regression
         prehs = self.regression_layer1(hs_with_emb)+prehs_t
         preT = self.regression_layer2(T_with_emb)+preT_t
         preDir = self.regression_layer3(Dir_with_emb)+preDir_t
